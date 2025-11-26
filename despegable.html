@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scroll Personalizado</title>
+<style>
+    /* Estilos generales */
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #121212;
+        color: white;
+        height: 200vh; /* Forzamos contenido para que haya scroll */
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    p {
+        width: 60%;
+        margin: 20px auto;
+        line-height: 1.8;
+    }
+
+    /* Scroll personalizado (para navegadores WebKit como Chrome, Edge, Safari) */
+    ::-webkit-scrollbar {
+        width: 10px; /* ancho de la barra */
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #1e1e1e; /* fondo del riel */
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: linear-gradient(180deg, #444, #888);
+        border-radius: 5px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(180deg, #666, #aaa);
+    }
+
+    /* Para Firefox */
+    html {
+        scrollbar-color: #666 #1e1e1e; /* color del pulgar y del fondo */
+        scrollbar-width: thin;
+    }
+</style>
+</head>
+<body>
+
+<h1>IMÁGENES REFERENCIALES </h1>
+
+<p>
+  <img src="ortopedia.jpg" alt=""   width="300" height="200" />
+  <img src="pediatria.jpg" alt=""   width="300" height="200" />
+  <img src="otorongo.jpg" alt=""   width="300" height="200" />
+  <img src="reuma.jpg" alt=""   width="300" height="200" />
+  <img src="psiqui.jpg" alt=""   width="300" height="200" />
+<img src="gine.jpg" alt=""   width="300" height="200" />
+  <img src="jeri.jpg" alt=""   width="300" height="200" />
+  <img src="jeriore.jpg" alt=""   width="300" height="200" />
+  <img src="ee.avif" alt=""   width="300" height="200" />
+
+    <br><br>
+    Desplázate hacia abajo para ver el efecto.
+</p>
+
+<p>
+   
+</p>
+
+<p>
+   
+</p>
+
+</body>
+</html>

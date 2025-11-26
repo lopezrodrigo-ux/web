@@ -1,0 +1,38 @@
+ #titulo-rojo{
+            color:red;
+          }
+ #subtitulo-amarillo{
+            color:yellowgreen;
+ }
+ .texto-arial{
+  font-family: arial;
+ }
+ body {
+  margin: 0;
+  padding: 0;
+  background-image: url("hospital.jpg"); /* Cambia por tu imagen o URL */
+  background-size: cover;             /* La imagen cubre todo el fondo */
+  background-position: center;        /* Centra la imagen */
+  background-repeat: no-repeat;       /* No se repite */
+  background-attachment: fixed;       /* Fondo fijo al hacer scroll */
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+ }
+li::marker { 
+content: "🫂 ";
+color:blueviolet;
+font-family: sans-serif ;
+text-shadow :  2px 2px black;
+font-weight: bolder;
+font-size: 2rem;
+}
+
+#titulo-blue{
+color:blue
+
+
+}
+#titulo-sisis{
+  color:rgb(142, 42, 161);
+}

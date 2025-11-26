@@ -1,0 +1,28 @@
+ #titulo-rojo{
+            color:red;
+          }
+ #subtitulo-amarillo{
+            color:yellowgreen;
+ }
+ .texto-arial{
+  font-family: arial;
+  size: 11;
+ }
+ 
+li::marker { 
+content: "⭐ ";
+color:blueviolet;
+font-family: sans-serif ;
+text-shadow :  2px 2px black;
+font-weight: bolder;
+font-size: 2rem;
+}
+
+#titulo-blue{
+color:blue
+
+
+}
+#titulo-sisis{
+  color:rgb(142, 42, 161);
+}
